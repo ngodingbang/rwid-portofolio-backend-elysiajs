@@ -1,0 +1,30 @@
+{
+  "name": "@ngodingbang/rwid-portofolio-backend-elysiajs",
+  "version": "1.0.0",
+  "description": "REST API to maintain portofolio backend data built by ElysiaJS.",
+  "module": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts",
+    "dev:secure": "bun run --watch src/index.ts --experimental-https"
+  },
+  "author": {
+    "name": "Septianata Rizky Pratama",
+    "email": "ngodingbang@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngodingbang/rwid-portofolio-backend-elysiajs/issues"
+  },
+  "homepage": "https://github.com/ngodingbang/rwid-portofolio-backend-elysiajs#readme",
+  "dependencies": {
+    "@elysiajs/cors": "^1.1.1",
+    "@elysiajs/swagger": "^1.1.3",
+    "elysia": "^1.1.17",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "bun-types": "^1.1.29",
+    "typescript": "^5.6.2"
+  }
+}
